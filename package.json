@@ -1,0 +1,30 @@
+{
+  "name": "expect-matcher-node-mock",
+  "version": "0.0.0",
+  "description": "Jest matcher for Node.js mock objects",
+  "main": "lib/index.mjs",
+  "bugs": {
+    "url": "https://github.com/crysadrak/expect-matcher-node-mock/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crysadrak/expect-matcher-node-mock"
+  },
+  "license": "MIT",
+  "author": "Crysa Drak <cd@l33t.cz>",
+  "scripts": {
+    "lint": "eslint --cache --cache-location=node_modules/.cache/ './**/*.{js,jsx,ts,tsx,mjs}'",
+    "test": "node --test --test-reporter=spec"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "expect": "29.7.0",
+    "jest-matcher-utils": "29.7.0"
+  }
+}
