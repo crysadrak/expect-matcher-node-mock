@@ -21,6 +21,18 @@ https://jestjs.io/docs/expect#tohavebeenlastcalledwitharg1-arg2-
 ### toHaveBeenNthCalledWith
 https://jestjs.io/docs/expect#tohavebeennthcalledwithnthcall-arg1-arg2-
 
-### TODO
-add all toHaveReturnedXX methods
+### toHaveReturned
+alias `toReturn`
+https://jestjs.io/docs/expect#tohavereturned
 
+### toHaveReturnedTimes
+https://jestjs.io/docs/expect#tohavereturnedtimesnumber
+
+### toHaveReturnedWith
+https://jestjs.io/docs/expect#tohavereturnedwithvalue
+
+### toHaveLastReturnedWith
+https://jestjs.io/docs/expect#tohavelastreturnedwithvalue
+
+### toHaveNthReturnedWith
+https://jestjs.io/docs/expect#tohaventhreturnedwithnthcall-value
