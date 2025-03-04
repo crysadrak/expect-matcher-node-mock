@@ -1,8 +1,16 @@
 # Extend jest-expect matcher by native node test runner mock matchers
 Extend for Jest [expect library](https://jestjs.io/docs/expect#expectextendmatchers).
 
+Native node test runner does have diffrent mock structure from jest.mock therefore the extension of current methods is necessary.yst
 
-Native node test runner does have diffrent mock structure from jest.mock therefore the extension of current methods is necessary.
+## Usage:
+
+Since native node test runner doesn't have any global setup, use this extension by import package:
+```js
+import 'expect-matcher-node-mock';
+```
+The extend of expect matchers is included in this import.
+
 
 ## Content:
 
