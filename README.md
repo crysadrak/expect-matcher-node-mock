@@ -5,12 +5,16 @@ Native node test runner does have diffrent mock structure from jest.mock therefo
 
 ## Usage:
 
-Since native node test runner doesn't have any global setup, use this extension by import package:
+Since native node test runner doesn't have any global setup, use this extension by import in every test:
 ```js
 import 'expect-matcher-node-mock';
 ```
-The extend of expect matchers is included in this import.
 
+The `extend` of `expect` matchers is included in this import and `expect` is also exported out of this module = its possible to import `expect` and extend matchers at once:
+```js
+import { expect } from 'expect-matcher-node-mock';
+...
+```
 
 ## Content:
 
