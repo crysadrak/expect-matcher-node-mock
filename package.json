@@ -1,6 +1,6 @@
 {
   "name": "expect-matcher-node-mock",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Jest matcher for Node.js mock objects",
   "main": "lib/index.mjs",
   "bugs": {
