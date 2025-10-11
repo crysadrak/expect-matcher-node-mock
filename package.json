@@ -1,8 +1,34 @@
 {
   "name": "expect-matcher-node-mock",
   "version": "1.1.2",
-  "description": "Jest matcher for Node.js mock objects",
+  "description": "Jest-like expect matchers for native Node.js test runner mock objects. Provides toHaveBeenCalled, toHaveBeenCalledWith, toHaveReturned and more.",
   "main": "lib/index.mjs",
+  "type": "module",
+  "homepage": "https://github.com/crysadrak/expect-matcher-node-mock#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "jest",
+    "expect",
+    "matcher",
+    "mock",
+    "node",
+    "test",
+    "testing",
+    "node-test",
+    "nodejs",
+    "test-runner",
+    "unit-test",
+    "assertion",
+    "spy",
+    "stub"
+  ],
   "bugs": {
     "url": "https://github.com/crysadrak/expect-matcher-node-mock/issues"
   },
