@@ -44,8 +44,9 @@
     "@biomejs/biome": "^1.9.4",
     "strip-ansi": "7.1.0"
   },
-  "dependencies": {
-    "expect": "29.7.0",
-    "jest-matcher-utils": "29.7.0"
+  "peerDependencies": {
+    "chalk": ">=4.0.0",
+    "expect": ">=29.0.0",
+    "jest-matcher-utils": ">=29.0.0"
   }
 }

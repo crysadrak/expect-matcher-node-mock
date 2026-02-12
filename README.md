@@ -22,15 +22,15 @@ This package bridges that gap by:
 ## Installation
 
 ```bash
-npm install expect-matcher-node-mock
+npm install --save-dev expect-matcher-node-mock
 ```
 
 ```bash
-yarn add expect-matcher-node-mock
+yarn add --dev expect-matcher-node-mock
 ```
 
 ```bash
-pnpm add expect-matcher-node-mock
+pnpm add --save-dev expect-matcher-node-mock
 ```
 
 ## Usage
@@ -163,14 +163,24 @@ https://jestjs.io/docs/expect#tohaventhreturnedwithnthcall-value
 ## Requirements
 
 - **Node.js 18.0.0 or higher** (for native test runner support)
-- **expect package** (peer dependency) - Install with `npm install expect`
+- **expect package** (peer dependency) - Version 29.0.0 or higher
+- **jest-matcher-utils package** (peer dependency) - Version 29.0.0 or higher
+- **chalk package** (peer dependency) - Version 4.0.0 or higher
 
 ## Peer Dependencies
 
-This package requires the `expect` library to be installed in your project:
+This package requires the following libraries to be installed in your project:
 
 ```bash
-npm install expect
+npm install expect jest-matcher-utils chalk
+```
+
+```bash
+yarn add expect jest-matcher-utils chalk
+```
+
+```bash
+pnpm add expect jest-matcher-utils chalk
 ```
 
 ## Troubleshooting
@@ -225,8 +235,14 @@ npm install
 # Run tests
 npm test
 
-# Run linting
+# Run linting (uses Biome)
 npm run lint
+
+# Auto-fix linting issues
+npm run lint:fix
+
+# Format code
+npm run format
 ```
 
 ## Changelog
