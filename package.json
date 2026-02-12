@@ -8,11 +8,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "files": [
-    "lib/",
-    "README.md",
-    "LICENSE"
-  ],
+  "files": ["lib/", "README.md", "LICENSE"],
   "keywords": [
     "jest",
     "expect",
@@ -39,15 +35,13 @@
   "license": "MIT",
   "author": "Crysa Drak <cd@l33t.cz>",
   "scripts": {
-    "lint": "eslint --cache --cache-location=node_modules/.cache/ './**/*.{js,jsx,ts,tsx,mjs}'",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
     "test": "node --test --test-reporter=spec"
   },
   "devDependencies": {
-    "eslint": "^8.27.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.4",
+    "@biomejs/biome": "^1.9.4",
     "strip-ansi": "7.1.0"
   },
   "dependencies": {
